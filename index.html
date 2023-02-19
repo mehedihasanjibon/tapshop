@@ -53,7 +53,7 @@
               </ul>
             </div>
             <div class="navbar-end">
-              <a class="btn">Get started</a>
+              <a class="btn">About</a>
             </div>
           </div>
     </header>
@@ -66,10 +66,10 @@
                 <div class="card card-compact w-full bg-base-100 shadow-xl">
                     <figure><img src="images/shoe-3.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 id="product-name" class="card-title">Shoes Master</h2>
+                      <h2 id="first-name" class="card-title">Shoes Master</h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <p> Price:$ <span id="price"> 300 </span></p>
-                      <p> Quantity: <span id="Quantity">5</span></p>
+                      <p> Price:$ <span id="first-price"> 300 </span></p>
+                      <p> Quantity: <span id="first-Quantity">5</span></p>
                       <div class="card-actions justify-end">
                         <button id="firstCard-btn" class="btn btn-primary"> Add to Card </button>
                       </div>
@@ -79,12 +79,12 @@
                   <div class="card card-compact w-full bg-base-100 shadow-xl">
                     <figure><img src="images/bag.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">Bag</h2>
+                      <h2 id="second-name" class="card-title">Bag</h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <p> Price:$ <span> 150 </span></p>
-                      <p> Quantity: <span>3</span></p>
+                      <p> Price:$ <span id="second-price"> 150 </span></p>
+                      <p> Quantity: <span id="second-Quantity">3</span></p>
                       <div class="card-actions justify-end">
-                        <button class="btn btn-primary"> Add to Card </button>
+                        <button id="secondCard-btn" class="btn btn-primary"> Add to Card </button>
                       </div>
                     </div>
                   </div>
@@ -92,12 +92,12 @@
                   <div class="card card-compact w-full bg-base-100 shadow-xl">
                     <figure><img src="images/shoes.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">Shoes</h2>
+                      <h2 id="third-name" class="card-title">Shoes</h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <p> Price:$ <span> 200 </span></p>
-                      <p> Quantity: <span>3</span></p>
+                      <p> Price:$ <span id="third-price"> 200 </span></p>
+                      <p> Quantity: <span id="third-Quantity">3</span></p>
                       <div class="card-actions justify-end">
-                        <button class="btn btn-primary"> Add to Card </button>
+                        <button id="thirdCard-btn" class="btn btn-primary"> Add to Card </button>
                       </div>
                     </div>
                   </div>
@@ -105,12 +105,12 @@
                   <div class="card card-compact w-full bg-base-100 shadow-xl">
                     <figure><img src="images/watch.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">Shoes</h2>
+                      <h2 id="fourth-name" class="card-title">Watch</h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <p> Price:$ <span> 250 </span></p>
-                      <p> Quantity: <span>2</span></p>
+                      <p> Price:$ <span id="fourth-price"> 250 </span></p>
+                      <p> Quantity: <span id="fourth-Quantity">2</span></p>
                       <div class="card-actions justify-end">
-                        <button class="btn btn-primary"> Add to Card </button>
+                        <button id="fourthCard-btn" class="btn btn-primary"> Add to Card </button>
                       </div>
                     </div>
                   </div>
@@ -118,12 +118,11 @@
                   <div class="card card-compact w-full bg-base-100 shadow-xl">
                     <figure><img src="images/bag-1.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">Shoes</h2>
+                      <h2 id="fifth-name" class="card-title">Shoes</h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <input type="text" placeholder="Price:$" class="input input-bordered input-info w-full max-w-xs">
-                        <input type="text" placeholder="Quantity" class="input input-bordered input-info w-full max-w-xs">
-
-                      <div class="card-actions justify-end">
+                        <input id="fifth-price" type="number" placeholder="Price:$" class="input input-bordered input-info w-full max-w-xs">
+                        <input id="fifth-Quantity" type="number" placeholder="Quantity" class="input input-bordered input-info w-full max-w-xs">
+                      <div id="fifthCard-btn" class="card-actions justify-end">
                         <button class="btn btn-primary"> Add to Card </button>
                       </div>
                     </div>
@@ -155,7 +154,7 @@
                             </tr> -->
                           </tbody>
                         </table>
-                        <div class="mt-2 bg-blue-300 ml-[40%] p-1 border-2 border-rose-600 rounded-lg">
+                        <div class="mt-2 text-gray-500 bg-blue-300 ml-[40%] p-1 border-2 border-zinc-500 rounded-lg">
                             Total Amount=$ <span id="total" class="text-indigo-900 font-semibold"> 000 </span>
                         </div>
                       </div>

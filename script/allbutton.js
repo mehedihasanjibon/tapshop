@@ -15,5 +15,6 @@ document.getElementById("firstCard-btn").addEventListener("click", function(){
     disableButton("firstCard-btn");
 });
 
+// second card 
 
 

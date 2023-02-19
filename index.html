@@ -66,12 +66,12 @@
                 <div class="card card-compact w-full bg-base-100 shadow-xl">
                     <figure><img src="images/shoe-3.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">Shoes Master</h2>
+                      <h2 id="product-name" class="card-title">Shoes Master</h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <p> Price:$ <span> 100 </span></p>
-                      <p> Quantity: <span>5</span></p>
+                      <p> Price:$ <span id="price"> 300 </span></p>
+                      <p> Quantity: <span id="Quantity">5</span></p>
                       <div class="card-actions justify-end">
-                        <button class="btn btn-primary"> Add to Card </button>
+                        <button id="firstCard-btn" class="btn btn-primary"> Add to Card </button>
                       </div>
                     </div>
                   </div>
@@ -81,7 +81,7 @@
                     <div class="card-body">
                       <h2 class="card-title">Bag</h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <p> Price:$ <span> 100 </span></p>
+                      <p> Price:$ <span> 150 </span></p>
                       <p> Quantity: <span>3</span></p>
                       <div class="card-actions justify-end">
                         <button class="btn btn-primary"> Add to Card </button>
@@ -145,7 +145,7 @@
                               <th>Total</th>
                             </tr>
                           </thead>
-                          <tbody>
+                          <tbody id="table-container">
                             <!-- row 1 -->
                             <!-- <tr>
                               <th>1</th>
@@ -155,11 +155,17 @@
                             </tr> -->
                           </tbody>
                         </table>
+                        <div class="mt-2 bg-blue-300 ml-[40%] p-1 border-2 border-rose-600 rounded-lg">
+                            Total Amount=$ <span id="total" class="text-indigo-900 font-semibold"> 000 </span>
+                        </div>
                       </div>
                 </div>
             </div>
         </div>
     </main>
 
+    <!-- javascript link  -->
+    <script src="script/uitility.js"></script>
+    <script src="script/allbutton.js"></script>
 </body>
 </html>
